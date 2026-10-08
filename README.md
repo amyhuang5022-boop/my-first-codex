@@ -1,2 +1,15 @@
-# my-first-codex
-My first Codex project
+# 我的第一個 Codex 專案
+
+簡單的繁體中文網頁，包含歡迎文字與可點擊的打招呼按鈕，不需安裝額外套件。
+
+## 執行方式
+
+在專案目錄執行：
+
+```sh
+python3 -m http.server 8000 --bind 0.0.0.0
+```
+
+在本機瀏覽器開啟 `http://localhost:8000`，或直接用瀏覽器開啟 `index.html`。
+
+點擊「點我打聲招呼」後，頁面會顯示歡迎訊息。
